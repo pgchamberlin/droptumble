@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="https://peterchamberlin.com/css/new_main.css" />
+    <meta name="description" content="Droptumble">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <style type="text/css"></style>
+</head>
+<body>
+    <div class="header-wrapper">
+        <header class="section">
+            <p><a href="/">Droptumble</a></p>
+        </header>
+    </div>
+    <div class="menu-wrapper">
+            <menu class="section">
+            </menu>
+        
+    </div>
+    <div class="main-wrapper">
+        <div class="section">
+            <article><h3>Image blog straight outta Dropbox</h3><p><a href="https://github.com/pgchamberlin/droptumble">View source on Github</a></p>
+{{#paths}}
+    <p><img src="{{.}}" alt="picture from that Dropbox" width="100%"></p>
+{{/paths}}
+            </article>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <footer class="section">
+            <p>Made by <a href="/__.html">Peter Chamberlin</a></p>
+        </footer>
+    </div>
+</body>
+</html>

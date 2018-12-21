@@ -1,0 +1,25 @@
+{
+  "name": "droptumble",
+  "version": "1.0.0",
+  "description": "A Dropbox-powered image firehose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgchamberlin/droptumble.git"
+  },
+  "author": "pgchamberlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgchamberlin/droptumble/issues"
+  },
+  "homepage": "https://github.com/pgchamberlin/droptumble#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs-plus": "^3.1.1",
+    "mustache": "^3.0.1",
+    "resize-image": "^0.1.0"
+  }
+}
